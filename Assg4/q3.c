@@ -8,4 +8,5 @@ int main()
     x=++x;
     printf("\n");
     printf("x=%c",x);
+    return 0;
 }
