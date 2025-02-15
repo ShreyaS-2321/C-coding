@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int usd = 84.23;
-    int x;
+    float usd = 84.23;
+    float x;
     printf("Enter amount in INR:\n");
-    scanf("%d",&x);
-    printf("Amount of %dINR in USD is %d",x,usd*x);
+    scanf("%f",&x);
+    printf("Amount of %f INR in USD is %.2f",x,x/usd);
+    return 0;
 }
